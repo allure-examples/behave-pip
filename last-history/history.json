@@ -1,0 +1,143 @@
+{
+  "717f0511ce4d0fe00e76113484a0f051" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "801543229a611403",
+      "reportUrl" : "https://allure-examples.github.io/allure-python-behave/1//#testresult/801543229a611403",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598590255848,
+        "stop" : 1598590255849,
+        "duration" : 1
+      }
+    } ]
+  },
+  "2c6293600b0540488b45a54267780550" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b49a7bd5cfd00cee",
+      "reportUrl" : "https://allure-examples.github.io/allure-python-behave/1//#testresult/b49a7bd5cfd00cee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598590256856,
+        "stop" : 1598590258860,
+        "duration" : 2004
+      }
+    } ]
+  },
+  "89b918b912287df1aae4c789a297a192" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "83e9ea3f6ead11f3",
+      "reportUrl" : "https://allure-examples.github.io/allure-python-behave/1//#testresult/83e9ea3f6ead11f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598590258863,
+        "stop" : 1598590258864,
+        "duration" : 1
+      }
+    } ]
+  },
+  "8c3a5b90445408153e29b97a06975a23" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e1d5b8666489f5e3",
+      "reportUrl" : "https://allure-examples.github.io/allure-python-behave/1//#testresult/e1d5b8666489f5e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598590255850,
+        "stop" : 1598590255852,
+        "duration" : 2
+      }
+    } ]
+  },
+  "0f0a15182df0b840d6d9b36e79eb6484" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6431fa0f5d07f907",
+      "reportUrl" : "https://allure-examples.github.io/allure-python-behave/1//#testresult/6431fa0f5d07f907",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598590258861,
+        "stop" : 1598590258863,
+        "duration" : 2
+      }
+    } ]
+  },
+  "3ca2a82570b650339433b7160c01f3d9" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "46bab7520f704c87",
+      "reportUrl" : "https://allure-examples.github.io/allure-python-behave/1//#testresult/46bab7520f704c87",
+      "status" : "failed",
+      "statusDetails" : "AssertionError\n",
+      "time" : {
+        "start" : 1598590255852,
+        "stop" : 1598590256856,
+        "duration" : 1004
+      }
+    } ]
+  },
+  "69c896b3df376ef2754d20e7bf3dd1ce" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "82ab21fc0275356d",
+      "reportUrl" : "https://allure-examples.github.io/allure-python-behave/1//#testresult/82ab21fc0275356d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598590255846,
+        "stop" : 1598590255847,
+        "duration" : 1
+      }
+    } ]
+  }
+}

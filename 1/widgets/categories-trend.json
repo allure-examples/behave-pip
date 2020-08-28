@@ -1,0 +1,8 @@
+[ {
+  "buildOrder" : 1,
+  "reportUrl" : "https://allure-examples.github.io/allure-python-behave/1/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "Product defects" : 1
+  }
+} ]
