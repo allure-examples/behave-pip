@@ -1,0 +1,199 @@
+{
+  "uid" : "761e53f94a953513",
+  "name" : "Create new label for authorized user",
+  "fullName" : "Labels: Create new label for authorized user",
+  "historyId" : "8c3a5b90445408153e29b97a06975a23",
+  "time" : {
+    "start" : 1613144194912,
+    "stop" : 1613144194913,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "When I open labels page",
+      "time" : {
+        "start" : 1613144194912,
+        "stop" : 1613144194913,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I create label with title \"hello\"",
+      "time" : {
+        "start" : 1613144194913,
+        "stop" : 1613144194913,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see label with title \"hello\"",
+      "time" : {
+        "start" : 1613144194913,
+        "stop" : 1613144194913,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "regress"
+  }, {
+    "name" : "feature",
+    "value" : "Labels"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 5,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "61459d1db6f2ad48",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-behave/9//#testresult/61459d1db6f2ad48",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613140747988,
+          "stop" : 1613140747989,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "d425eea2e1f83538",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-behave/8//#testresult/d425eea2e1f83538",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613137381593,
+          "stop" : 1613137381594,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "592d37d2e28267b7",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-behave/7//#testresult/592d37d2e28267b7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613137068893,
+          "stop" : 1613137068895,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "604a22fc4e4c3e74",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-behave/6//#testresult/604a22fc4e4c3e74",
+        "status" : "broken",
+        "statusDetails" : "RuntimeError: Element not found for xpath [//div[@class='something']]\n",
+        "time" : {
+          "start" : 1613136484322,
+          "stop" : 1613136484323,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "4f17d8cc549a2b1d",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-behave/5//#testresult/4f17d8cc549a2b1d",
+        "status" : "broken",
+        "statusDetails" : "RuntimeError: Element not found for xpath [//div[@class='something']]\n",
+        "time" : {
+          "start" : 1613136234228,
+          "stop" : 1613136234230,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "4822851cd558480d",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-behave/4//#testresult/4822851cd558480d",
+        "status" : "broken",
+        "statusDetails" : "RuntimeError: Element not found for xpath [//div[@class='something']]\n",
+        "time" : {
+          "start" : 1613135340958,
+          "stop" : 1613135340960,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "81e98facce3f85bc",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-behave/3//#testresult/81e98facce3f85bc",
+        "status" : "broken",
+        "statusDetails" : "RuntimeError: Element not found for xpath [//div[@class='something']]\n",
+        "time" : {
+          "start" : 1611117969818,
+          "stop" : 1611117969819,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "d4f135ce9a9efbb7",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-behave/2//#testresult/d4f135ce9a9efbb7",
+        "status" : "broken",
+        "statusDetails" : "RuntimeError: Element not found for xpath [//div[@class='something']]\n",
+        "time" : {
+          "start" : 1606479768854,
+          "stop" : 1606479768856,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "e1d5b8666489f5e3",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-behave/1//#testresult/e1d5b8666489f5e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598590255850,
+          "stop" : 1598590255852,
+          "duration" : 2
+        }
+      } ]
+    },
+    "tags" : [ "regress" ]
+  },
+  "source" : "761e53f94a953513.json",
+  "parameterValues" : [ ]
+}
