@@ -1,0 +1,26 @@
+{
+  "total" : 2,
+  "items" : [ {
+    "uid" : "600c806b5537d68013227092f194bf68",
+    "name" : "Labels",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "315cb5e75dcff18cb0d2c4b1c76e43ed",
+    "name" : "Milestones",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
+}
