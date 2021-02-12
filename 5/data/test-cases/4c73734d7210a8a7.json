@@ -1,0 +1,167 @@
+{
+  "uid" : "4c73734d7210a8a7",
+  "name" : "Add label to existing issue for authorized user",
+  "fullName" : "Labels: Add label to existing issue for authorized user",
+  "historyId" : "3ca2a82570b650339433b7160c01f3d9",
+  "time" : {
+    "start" : 1613136234230,
+    "stop" : 1613136235233,
+    "duration" : 1003
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "When I open issue with id 123123",
+      "time" : {
+        "start" : 1613136234231,
+        "stop" : 1613136234231,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I add label with title \"hello\" to issue",
+      "time" : {
+        "start" : 1613136234231,
+        "stop" : 1613136234231,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I filter issue by label title \"hello\"",
+      "time" : {
+        "start" : 1613136234232,
+        "stop" : 1613136234232,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see issue with label title \"hello\"",
+      "time" : {
+        "start" : 1613136234232,
+        "stop" : 1613136235233,
+        "duration" : 1001
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "feature",
+    "value" : "Labels"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "d9184c0130c9863b",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-behave/4//#testresult/d9184c0130c9863b",
+        "status" : "broken",
+        "statusDetails" : "RuntimeError: Element not found for xpath [//div[@class='something']]\n",
+        "time" : {
+          "start" : 1613135340960,
+          "stop" : 1613135340962,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "d8720b92acc3e42a",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-behave/3//#testresult/d8720b92acc3e42a",
+        "status" : "broken",
+        "statusDetails" : "RuntimeError: Element not found for xpath [//div[@class='something']]\n",
+        "time" : {
+          "start" : 1611117969819,
+          "stop" : 1611117969821,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "d2bfe8df4d072a08",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-behave/2//#testresult/d2bfe8df4d072a08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606479768856,
+          "stop" : 1606479769859,
+          "duration" : 1003
+        }
+      }, {
+        "uid" : "46bab7520f704c87",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-behave/1//#testresult/46bab7520f704c87",
+        "status" : "failed",
+        "statusDetails" : "AssertionError\n",
+        "time" : {
+          "start" : 1598590255852,
+          "stop" : 1598590256856,
+          "duration" : 1004
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "4c73734d7210a8a7.json",
+  "parameterValues" : [ ]
+}
