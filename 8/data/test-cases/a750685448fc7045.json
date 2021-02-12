@@ -1,0 +1,205 @@
+{
+  "uid" : "a750685448fc7045",
+  "name" : "Add label to existing issue for authorized user",
+  "fullName" : "Labels: Add label to existing issue for authorized user",
+  "historyId" : "3ca2a82570b650339433b7160c01f3d9",
+  "time" : {
+    "start" : 1613137381594,
+    "stop" : 1613137381596,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "statusMessage" : "RuntimeError: Element not found for xpath [//div[@class='something']]\n",
+  "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/web_steps.py\", line 74, in filter_issue_by_label\n    maybe_throw_element_not_found_exception()\n  File \"features/steps/web_steps.py\", line 79, in maybe_throw_element_not_found_exception\n    raise RuntimeError(\"Element not found for xpath [//div[@class='something']]\")\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "RuntimeError: Element not found for xpath [//div[@class='something']]\n",
+    "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/web_steps.py\", line 74, in filter_issue_by_label\n    maybe_throw_element_not_found_exception()\n  File \"features/steps/web_steps.py\", line 79, in maybe_throw_element_not_found_exception\n    raise RuntimeError(\"Element not found for xpath [//div[@class='something']]\")\n",
+    "steps" : [ {
+      "name" : "When I open issue with id 123123",
+      "time" : {
+        "start" : 1613137381595,
+        "stop" : 1613137381595,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I add label with title \"hello\" to issue",
+      "time" : {
+        "start" : 1613137381595,
+        "stop" : 1613137381595,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I filter issue by label title \"hello\"",
+      "time" : {
+        "start" : 1613137381596,
+        "stop" : 1613137381596,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "RuntimeError: Element not found for xpath [//div[@class='something']]\n",
+      "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/web_steps.py\", line 74, in filter_issue_by_label\n    maybe_throw_element_not_found_exception()\n  File \"features/steps/web_steps.py\", line 79, in maybe_throw_element_not_found_exception\n    raise RuntimeError(\"Element not found for xpath [//div[@class='something']]\")\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see issue with label title \"hello\"",
+      "time" : {
+        "start" : 1613137381596,
+        "stop" : 1613137381596,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "feature",
+    "value" : "Labels"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "4ef7fbbe185e00c9",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-behave/7//#testresult/4ef7fbbe185e00c9",
+        "status" : "broken",
+        "statusDetails" : "RuntimeError: Element not found for xpath [//div[@class='something']]\n",
+        "time" : {
+          "start" : 1613137068895,
+          "stop" : 1613137068897,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "f8012ce6e0ec7d2b",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-behave/6//#testresult/f8012ce6e0ec7d2b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613136484324,
+          "stop" : 1613136485326,
+          "duration" : 1002
+        }
+      }, {
+        "uid" : "4c73734d7210a8a7",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-behave/5//#testresult/4c73734d7210a8a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613136234230,
+          "stop" : 1613136235233,
+          "duration" : 1003
+        }
+      }, {
+        "uid" : "d9184c0130c9863b",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-behave/4//#testresult/d9184c0130c9863b",
+        "status" : "broken",
+        "statusDetails" : "RuntimeError: Element not found for xpath [//div[@class='something']]\n",
+        "time" : {
+          "start" : 1613135340960,
+          "stop" : 1613135340962,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "d8720b92acc3e42a",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-behave/3//#testresult/d8720b92acc3e42a",
+        "status" : "broken",
+        "statusDetails" : "RuntimeError: Element not found for xpath [//div[@class='something']]\n",
+        "time" : {
+          "start" : 1611117969819,
+          "stop" : 1611117969821,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "d2bfe8df4d072a08",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-behave/2//#testresult/d2bfe8df4d072a08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606479768856,
+          "stop" : 1606479769859,
+          "duration" : 1003
+        }
+      }, {
+        "uid" : "46bab7520f704c87",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-behave/1//#testresult/46bab7520f704c87",
+        "status" : "failed",
+        "statusDetails" : "AssertionError\n",
+        "time" : {
+          "start" : 1598590255852,
+          "stop" : 1598590256856,
+          "duration" : 1004
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "a750685448fc7045.json",
+  "parameterValues" : [ ]
+}
