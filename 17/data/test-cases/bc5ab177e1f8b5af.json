@@ -1,0 +1,332 @@
+{
+  "uid" : "bc5ab177e1f8b5af",
+  "name" : "Delete existing label via api",
+  "fullName" : "Labels: Delete existing label via api",
+  "historyId" : "717f0511ce4d0fe00e76113484a0f051",
+  "time" : {
+    "start" : 1620246640046,
+    "stop" : 1620246640047,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "When I create label with title \"hello\" via api",
+      "time" : {
+        "start" : 1620246640047,
+        "stop" : 1620246640047,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /repos/:owner/:repo/labels",
+        "time" : {
+          "start" : 1620246640047,
+          "stop" : 1620246640047,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And I delete label with title \"hello\" via api",
+      "time" : {
+        "start" : 1620246640047,
+        "stop" : 1620246640047,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "GET /repos/:owner/:repo/labels?text=\"hello\"",
+        "time" : {
+          "start" : 1620246640047,
+          "stop" : 1620246640047,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "DELETE /repos/:owner/:repo/labels/237",
+        "time" : {
+          "start" : 1620246640047,
+          "stop" : 1620246640047,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should not see label with content \"hello\" via api",
+      "time" : {
+        "start" : 1620246640047,
+        "stop" : 1620246640047,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "GET /repos/:owner/:repo/labels?text=\"hello\"",
+        "time" : {
+          "start" : 1620246640047,
+          "stop" : 1620246640047,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET /repos/:owner/:repo/labels/834",
+        "time" : {
+          "start" : 1620246640047,
+          "stop" : 1620246640047,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regress"
+  }, {
+    "name" : "feature",
+    "value" : "Labels"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 17,
+        "unknown" : 0,
+        "total" : 17
+      },
+      "items" : [ {
+        "uid" : "2fde788de13f61c0",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-behave/16//#testresult/2fde788de13f61c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618825187592,
+          "stop" : 1618825187593,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "7e22e94cd76fba63",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-behave/15//#testresult/7e22e94cd76fba63",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618825154802,
+          "stop" : 1618825154803,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "b9918b1c59176562",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-behave/14//#testresult/b9918b1c59176562",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615296685402,
+          "stop" : 1615296685403,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "3a7f84786c1ab6b0",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-behave/13//#testresult/3a7f84786c1ab6b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615281072470,
+          "stop" : 1615281072472,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "7bd5d248d27a92aa",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-behave/12//#testresult/7bd5d248d27a92aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613162975970,
+          "stop" : 1613162975971,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "943b4aae5dbfe04d",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-behave/11//#testresult/943b4aae5dbfe04d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613162045165,
+          "stop" : 1613162045167,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "be1f981f8523cadc",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-behave/10//#testresult/be1f981f8523cadc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613144194911,
+          "stop" : 1613144194912,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "3bb58190023b5114",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-behave/9//#testresult/3bb58190023b5114",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613140747986,
+          "stop" : 1613140747987,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "39e802e35e7304ce",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-behave/8//#testresult/39e802e35e7304ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613137381591,
+          "stop" : 1613137381592,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "6b25ca96b3d0570c",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-behave/7//#testresult/6b25ca96b3d0570c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613137068891,
+          "stop" : 1613137068892,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "121d8673cc72a988",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-behave/6//#testresult/121d8673cc72a988",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613136484320,
+          "stop" : 1613136484321,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "89c51e99bd5f78d7",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-behave/5//#testresult/89c51e99bd5f78d7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613136234226,
+          "stop" : 1613136234227,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "9b472f62b7241de4",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-behave/4//#testresult/9b472f62b7241de4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613135340956,
+          "stop" : 1613135340958,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "dcb79888b6fa2d50",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-behave/3//#testresult/dcb79888b6fa2d50",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611117969816,
+          "stop" : 1611117969817,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "75098a490b24a908",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-behave/2//#testresult/75098a490b24a908",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606479768852,
+          "stop" : 1606479768853,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "801543229a611403",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-behave/1//#testresult/801543229a611403",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598590255848,
+          "stop" : 1598590255849,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ "regress" ]
+  },
+  "source" : "bc5ab177e1f8b5af.json",
+  "parameterValues" : [ ]
+}

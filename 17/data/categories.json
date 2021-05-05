@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "RuntimeError: Element not found for xpath [//div[@class='something']]\n",
+      "children" : [ {
+        "name" : "Create new label for authorized user",
+        "uid" : "e708bc1d9d9eb8ed",
+        "parentUid" : "77cc10b9f3e25bb196ddb2f439d4e841",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620246640048,
+          "stop" : 1620246640049,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add label to existing issue for authorized user",
+        "uid" : "aae2386bc51c0c53",
+        "parentUid" : "77cc10b9f3e25bb196ddb2f439d4e841",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620246640052,
+          "stop" : 1620246640053,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "77cc10b9f3e25bb196ddb2f439d4e841"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError\n",
+      "children" : [ {
+        "name" : "Delete existing label for authorized user",
+        "uid" : "6e97289737d1ce9b",
+        "parentUid" : "a730cf0b0a23aabea6d11aa0391c8a76",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620246640054,
+          "stop" : 1620246641056,
+          "duration" : 1002
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a730cf0b0a23aabea6d11aa0391c8a76"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
